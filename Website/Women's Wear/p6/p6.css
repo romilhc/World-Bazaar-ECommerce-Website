@@ -1,0 +1,27 @@
+.pic6
+{ 
+	width:250px; 
+	height:300px; 
+	background: url('p6.jpg'); 
+	background-size: 250px 300px;
+} 
+
+.text6
+{ 
+	width:250px; 
+	height:300px; 
+	background:#FFF; 
+	opacity:0; 
+} 
+
+.pic6:hover .text6 
+{ 
+	width:250px;
+height:300px;
+opacity:0.9; 
+	text-align:center; 
+	color:#000000; 
+	font-size:20px; 
+	font-weight:bold; 
+	font-family:"Times New Roman", Times, serif; 
+}

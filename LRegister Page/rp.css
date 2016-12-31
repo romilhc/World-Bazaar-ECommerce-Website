@@ -1,0 +1,37 @@
+div.register
+{
+	
+	border-style:groove;
+	border-color:#000000;
+	border-top-width:5px;
+	border-width:0.39%;
+	width:100%;
+	background:url("reg.jpg") repeat;
+	
+}
+
+.register
+{
+		text-align:center;
+		color:#FFFFFF;
+		
+}
+
+input.regular
+{
+	background-color:#FFFFFF;
+	width:11.718%;
+	font-size:11pt;
+
+
+}
+
+textarea.address
+{
+	width:15.625%;
+	height:100px;
+	font-size:11pt;
+	background-color:#FFFFFF;
+	
+}
+

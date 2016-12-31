@@ -1,0 +1,60 @@
+<html>
+	<link rel="stylesheet" type="text/css" href="../ex_css.css">
+	<link rel="stylesheet" type="text/css" href="rp.css">
+	<script type="text/javascript" src="registervalidate.js"></script>
+	<head>
+		<title>Registration Page</title> 
+	</head>
+	
+	<body style="margin:0; background-color:black;">
+		<div class="header">	
+		
+			<div>
+				<img class="logo" src="logo.jpg" >				
+			</div>
+			<div>
+				<div class="worldbazaar">
+					<p class="worldbazaar">WORLD BAZAAR</p>
+				</div>
+				<div>
+					<p class="wtwcts">Where the world comes to shop...</p>
+				</div>
+			</div>			
+		</div>	
+		<div class="bar">
+			<a href="../Home Page/home.html"><button type="button" class="bar ">Home</button></a>
+			<a href="../Men's Wear/mw.html"><button type="button" class="bar">Men's Wear</button></a>
+			<a href="../Women's Wear/ww.html"><button type="button" class="bar">Women's Wear</button></a>
+			<a href="../Electronics/el.html"><button type="button" class="bar">Electronics</button></a>
+			<a href="../Toys/toy.html"><button type="button" class="bar">Toys</button></a>
+			<a href="../Sports and Fitness/sf.html"><button type="button" class="bar">Sports & Fitness</button></a>
+			<a href="../Books/bk.html"><button type="button" class="bar">Books</button></a>
+			<a href="../Contact us/co.html"><button type="button" class="bar">Contact Us</button></a>
+		</div>
+		<div class="register">
+			<form name="registration_form" onsubmit="return(registervalidate())" action="http://localhost/Website/Register Page/reg.php" method="post">
+				<h1 class="register">Registration Form</h1><br>
+				<center>
+				<h2>
+				<pre>	Name:				<input class="regular" type="text" name="Name"></pre><br><br>
+				<pre>	Email:				<input class="regular" type="text" name="Email"></pre><br><br>
+				<pre>	Password: 			<input id="pass1" class="regular" type="password" name="Password"></pre><br><br>
+				<pre>	Confirm Password:          	 <input id="pass2" class="regular" type="password" name="Confirm_Password" onkeyup="confirmpassword(); return false;"></pre> <span id="confirm_message"></span><br><br>
+			
+				<pre>  Gender: 		      	   <input type="radio" name="Gender" value="male"> Male<br>  
+				     <input type="radio" name="Gender" value="female"> Female</pre><br><br>
+				
+				<pre>       Date of Birth:	          	<input class="regular" type="text" name="DOB"></pre><br><br>
+				
+				<pre>	Contact Details: 		  <input type="checkbox" name="Contact_Details" value="Mobile_No.">Mobile No.<br>
+					       <input type="checkbox" name="Contact_Details" value="Residential_No.">Residential No.<br>
+						   <input type="checkbox" name="Contact_Details" value="Other_Email_ID">Other Email Address<br>
+				   <input type="checkbox" name="Contact_Details" value="FAX">FAX</pre><br><br>
+								
+				<pre>        Address: 	 	  	<textarea class="address" name="Address"/></textarea></pre>
+				<input type="submit" name="Registration_Submit" value="Submit"><h2>
+				</center>
+			</form>
+		</div>	
+	</body>
+</html>

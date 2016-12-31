@@ -1,0 +1,27 @@
+.pic3
+{ 
+	width:250px; 
+	height:300px; 
+	background: url('p3.jpg'); 
+	background-size: 250px 300px;
+} 
+
+.text3
+{ 
+	width:250px; 
+	height:300px; 
+	background:#FFF; 
+	opacity:0; 
+} 
+
+.pic3:hover .text3 
+{ 
+	width:250px;
+height:300px;
+opacity:0.9; 
+	text-align:center; 
+	color:#000000; 
+	font-size:20px; 
+	font-weight:bold; 
+	font-family:"Times New Roman", Times, serif; 
+}

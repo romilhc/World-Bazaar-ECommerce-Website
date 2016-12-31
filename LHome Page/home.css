@@ -1,0 +1,32 @@
+.pic
+ { 
+	
+	width:100%; 
+	height:830px; 
+	background: url('bwmall.jpg') no-repeat; 
+	background-size: 100% 830px;
+	
+} 
+
+.text
+{ 
+	width:75%; 
+	height:750px; 
+	background:#fff; 
+	margin-left:0;
+	margin-right:0;
+	padding_right:30%;
+	opacity:0; 
+} 
+
+ .pic:hover .text 
+ { 
+	opacity:0.5; 
+	text-align:justify; 
+	color:#00000; 
+	font-size:20px; 
+	font-weight:700; 
+	font-family:"Times New Roman", Times, serif;  
+	margin: 3%	0% 0% 20%;
+	padding: 5% 5% 2% 5%;
+}

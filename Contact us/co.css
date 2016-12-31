@@ -1,0 +1,85 @@
+.copg
+{
+	float:left;
+	background:url('images.jpg') no-repeat; 
+	background-size: 100% 100%;
+	width:100%;
+	height:100%;
+}
+
+.col1
+{
+	width:50%;
+	float:left;
+	margin:10px 10px 10px 60px;
+	padding:35px 35px 0 35px;
+	font-family: 'Trebuchet MS',Verdana, Arial, Helvetica, sans-serif;
+
+}
+.col2
+{
+	width:25%;
+	float:left;
+	margin:10px 10px 10px 60px;
+	padding:35px 0px 0 35px;
+	border-left: 1px solid #2e3338;
+	font-family: 'Trebuchet MS',Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.green
+{
+	color:#839f37;
+}
+
+h1
+{
+ background:url('icon1.jpg') no-repeat top left;
+ background-size:7% 100%;
+ padding-left: 60px;
+}
+
+.white
+{
+	color:white;	
+}
+
+.blue
+{
+	color:#378899;
+}
+
+.orange
+{
+	color:#9a5d38;
+}
+.extra-right-padding p
+{
+	padding-right:55px;
+	text-align:justify;
+
+}
+
+.register
+{
+		color:#FFFFFF;
+		
+}
+
+input.regular
+{
+	background-color:#FFFFFF;
+	width:30%;
+	font-size:11pt;
+
+
+}
+
+textarea.address
+{
+	width:60%;
+	height:10%;
+	font-size:11pt;
+	background-color:#FFFFFF;
+	
+}

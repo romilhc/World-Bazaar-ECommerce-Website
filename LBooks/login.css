@@ -1,0 +1,39 @@
+div.sidebar
+{
+	background-color:#66CCCC;
+	margin-left:75%;
+	width:25%;
+	height:1100px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+div.login
+{
+	background-color:#66CCCC;
+}
+
+input.submit
+{
+	margin-left:37%;
+	width:25%;
+	height:25px;
+	background-color:cyan;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+p.register
+{
+	text-align:center;
+	font-weight:bold;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+button.register
+{
+	margin-left:30%;
+	width:40%;
+	height:25px;
+	background-color:cyan;
+	box-shadow: 5px 5px 5px #888888;
+}
